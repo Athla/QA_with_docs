@@ -1,4 +1,4 @@
-from GLOBAL_ENV import OPENAI_API_KEY
+# from GLOBAL_ENV import OPENAI_API_KEY
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import DirectoryLoader, PyPDFLoader
 from langchain.text_splitter import NLTKTextSplitter
